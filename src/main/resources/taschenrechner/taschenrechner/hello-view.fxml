@@ -9,7 +9,9 @@
           xmlns:fx="http://javafx.com/fxml"
           alignment="center"
           hgap="10" vgap="10"
-          style="-fx-background-color: #2e2e2e;">
+          style="-fx-background-color: #2e2e2e;"
+          onKeyPressed="#handleKeyInput"
+          focusTraversable="true">
     <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
 
     <Label fx:id="display" text="0"
